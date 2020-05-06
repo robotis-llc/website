@@ -34,11 +34,49 @@ li a:hover {
 }
 
 .center {
-    float: center;
+    float: right;
     background-color:dimgray;
     font-size: larger;
     padding: 10px;
 }
+
+.left {
+    float: left;
+    width: 50%;
+    background-color: dimgray;
+    font-size: larger;
+    padding: 10px;
+}
+
+p {
+    text-align: justify;
+}
+
+.button {
+    display: inline-block;
+    padding: 15px 25px;
+    font-size: 24px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color:dodgerblue;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+}
+
+.button:hover {
+    background-color:lightskyblue;
+}
+
+.button:active {
+    background-color:deepskyblue;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+
 /*Mobile Display*/
 @media only screen and (max-width: 700px){
     li a {
