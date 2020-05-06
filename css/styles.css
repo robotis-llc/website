@@ -1,56 +1,52 @@
+h1 {
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+}
 
-        h1 {
-            color: darkgrey;
-            background-color: black;
-            font-family: Arial, Helvetica, sans-serif;
-            text-align: center;
-        }
+body {
+    background-color: lightgrey;
+}
 
-        body {
-            background-color: lightgrey;
-        }
+ul {
+    margin-top: auto;
+    list-style-type: none;
+    padding:inherit;
+    overflow:visible;
+    background-color: rgb(49, 49, 49);
+}
 
-        ul {
-            margin-top: auto;
-            list-style-type: none;
-            padding:inherit;
-            overflow:visible;
-            background-color: rgb(49, 49, 49);
-        }
+li {
+    display:inline;
+}
 
-        li {
-            display:inline;
-        }
+li a {
+    display:inline-flex;
+    color: mintcream;
+    text-align: center;
+    padding:1%;
+    text-decoration:none;
+    font-family: Arial, Helvetica, sans-serif;
+}
 
-        li a {
-            display:inline-block;
-            color: mintcream;
-            text-align: center;
-            padding:1%;
-            font-family: Arial, Helvetica, sans-serif;
-            text-decoration:none;
-        }
+li a:hover {
+    background-color:black;
+}
 
-        li a:hover {
-            background-color:black;
-        }
-
-        li b {
-            float: left;
-            color: mintcream;
-            text-align: center;
-            padding:1%;
-            text-decoration:none;
-            font-family: Arial, Helvetica, sans-serif;
-        }
-
-        li b:hover {
-            background-color: black;
-        }
-
-        .center {
-            float: center;
-            background-color:dimgray;
-            font-size: larger;
-            padding: 10px;
-        }
+.center {
+    float: center;
+    background-color:dimgray;
+    font-size: larger;
+    padding: 10px;
+}
+/*Mobile Display*/
+@media only screen and (max-width: 700px){
+    li a {
+        display:block;
+        color: mintcream;
+        text-align: center;
+        padding:1%;
+        text-decoration:none;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+}
