@@ -16,26 +16,39 @@
         ul {
             margin-top: auto;
             list-style-type: none;
-            padding: 20px;
+            padding:inherit;
             overflow:visible;
             background-color: rgb(49, 49, 49);
         }
 
         li {
             display:inline;
-
         }
 
         li a {
-            display: inline;
+            display:inline-block;
             color: mintcream;
             text-align: center;
-            padding: 5%;
+            padding:1%;
+            font-family: Arial, Helvetica, sans-serif;
             text-decoration:none;
         }
 
         li a:hover {
-            background-color: rgb(0, 0, 0);
+            background-color:black;
+        }
+
+        li b {
+            float: left;
+            color: mintcream;
+            text-align: center;
+            padding:1%;
+            text-decoration:none;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        li b:hover {
+            background-color: black;
         }
 
         .center {
@@ -52,7 +65,7 @@
     </h1>
     <center>
         <ul>
-            <li><a class="active" href="#home">Home</a></li>
+            <li><b class="active" href="#home">Home</a></li>
             <li><a href="#news">News</a></li>
             <li><a href="#contact">Contact</a></li>
             <li><a href="#about">About</a></li>
