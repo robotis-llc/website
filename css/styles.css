@@ -12,6 +12,7 @@ h2 {
 
 body {
     /*background-color: lightgrey;*/
+    margin: 5em;
     background-color: lightgrey;
 }
 
@@ -111,7 +112,10 @@ p {
 }
 
 /*Mobile Display*/
-@media only screen and (max-width: 700px){
+@media only screen and (max-width: 800px){
+    body {
+        margin: auto;
+    }
     li a {
         display:block;
         color: mintcream;
