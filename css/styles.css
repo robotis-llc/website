@@ -111,6 +111,16 @@ p {
     transform: translateY(4px);
 }
 
+.footer {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: grey;
+   color: ivory;
+   text-align: center;
+}
+
 /*Mobile Display*/
 @media only screen and (max-width: 800px){
     body {
