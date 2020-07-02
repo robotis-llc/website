@@ -3,3 +3,4 @@
 ![Website](https://img.shields.io/website?down_color=red&down_message=offline&up_color=lime-green&up_message=online&url=https%3A%2F%2Frobotis.llc%2F)
 <BR>
 Visit the Robotis LLC Website [here](https://robotis.llc/)
+![Robotis LLC](src/robotisllc.svg)
