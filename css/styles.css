@@ -57,7 +57,7 @@ li b:hover {
 
 .center {
     float: center;
-    background-color: steelblue;
+    background-color: gainsboro;
     font-size: larger;
     padding: 10px;
 }
@@ -65,7 +65,7 @@ li b:hover {
 .left {
     float: left;
     width: 50%;
-    background-color: steelblue;
+    background-color: gainsboro;
     font-size: larger;
     padding: 10px;
 }
