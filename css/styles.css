@@ -1,3 +1,75 @@
+:root {
+    --primary-color-1: #000;
+    --primary-color-2: #14213D;
+    --secondary-color-1: #FCA311;
+    --secondary-color-2: #E5E5E5;
+    --secondary-color-3: #FFFFFF;
+}
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: auto;
+    background-color: var(--primary-color-2);
+}
+
+#navbar-container {
+    display: flex;
+    flex-flow: row;
+    width: 100%;
+}
+
+#logo {
+    display: inline;
+    height: 50px;
+    vertical-align: middle;
+}
+
+#navbar {
+    display: flex;
+    background-color: var(--secondary-color-1);
+    width: 100%;
+    overflow: visible;
+    font-size: 18px;
+}
+
+#navbar li {
+    display: inline;
+}
+
+#navbar li a {
+    display: block;
+    color: var(--secondary-color-3);
+    text-align: center;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 16px 15px;
+    vertical-align: middle;
+}
+
+#navbar li a:hover {
+    background-color: black;
+}
+
+p {
+    padding: 25px 200px;
+    background-color: var(--primary-color-2);
+    color: var(--secondary-color-3);
+    font-size: 1.1em;
+}
+
+#footer-popup {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   text-align: center;
+}
+
+#footer-popup p {
+    background-color: var(--secondary-color-1);
+}
+
+
 h1 {
     color: black;
     font-family: Arial, Helvetica, sans-serif;
@@ -8,51 +80,6 @@ h2 {
     color: ivory;
     font-family: Arial, Helvetica, sans-serif;
     text-align: left;
-}
-
-body {
-    /*background-color: lightgrey;*/
-    margin: 5em;
-    background-color: lightgrey;
-}
-
-ul {
-    margin-top: auto;
-    list-style-type: none;
-    padding:inherit;
-    overflow:visible;
-    background-color: rgb(49, 49, 49);
-}
-
-li {
-    display:inline;
-}
-
-li a {
-    display:inline-flex;
-    color: mintcream;
-    text-align: center;
-    padding:1%;
-    text-decoration:none;
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-li a:hover {
-    background-color:black;
-}
-
-/*disabled links*/
-li b {
-    display:inline-flex;
-    color: mintcream;
-    text-align: center;
-    padding:1%;
-    text-decoration:none;
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-li b:hover {
-    background-color:rgb(49, 49, 49);
 }
 
 .center {
@@ -81,9 +108,6 @@ li b:hover {
     padding-top: 10px;
 }
 
-p {
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-}
 
 .button {
     display: inline-block;
@@ -108,16 +132,6 @@ p {
     background-color:deepskyblue;
     box-shadow: 0 5px #666;
     transform: translateY(4px);
-}
-
-.footer {
-   position: fixed;
-   left: 0;
-   bottom: 0;
-   width: 100%;
-   background-color: grey;
-   color: ivory;
-   text-align: center;
 }
 
 /*Mobile Display*/
