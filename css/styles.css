@@ -26,10 +26,11 @@ body {
 
 #navbar {
     display: flex;
-    background-color: var(--secondary-color-1);
+    background-color: var(--primary-color-1);
     width: 100%;
     overflow: visible;
     font-size: 18px;
+    padding-left: 30px;
 }
 
 #navbar li {
@@ -47,7 +48,13 @@ body {
 }
 
 #navbar li a:hover {
-    background-color: black;
+    background-color: var(--secondary-color-3);
+    color: var(--primary-color-1);
+    transition: 0.5s;
+}
+
+section {
+    padding-top: 50px;
 }
 
 p {
