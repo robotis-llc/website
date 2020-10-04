@@ -1,0 +1,29 @@
+.project-container {
+  background-color: var(--secondary-color-2);
+  padding: 30px;
+}
+
+.project-container:nth-child(n+1) {
+  margin-top: 20px;
+}
+
+.project-container h2 {
+  font-size: 2em;
+  background-color: inherit;
+  color: var(--primary-color-1);
+}
+
+.project-container p {
+  background-color: inherit;
+  color: var(--primary-color-1);
+  margin-top: 10px;
+}
+
+#survey-anchor {
+  margin-top: 10px;
+  display: block;
+}
+
+.project-container button {
+  display: block;
+}

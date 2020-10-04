@@ -69,7 +69,7 @@ header img {
 }
 
 section {
-    padding: 50px 100px 400px 100px;
+    padding: 50px 100px 100px 100px;
 }
 
 #ccwc {
@@ -112,7 +112,7 @@ p {
 }
 
 h1 {
-    font-size: 2em;
+    font-size: 4em;
     padding-bottom: 15px;
 }
 
@@ -148,20 +148,11 @@ h2 {
     padding-top: 10px;
 }
 
-
-.button {
-    display: inline-block;
-    padding: 15px 25px;
-    font-size: 24px;
-    cursor: pointer;
-    text-align: center;
-    text-decoration: none;
-    outline: none;
-    color: #fff;
-    background-color:dodgerblue;
-    border: none;
-    border-radius: 15px;
-    box-shadow: 0 9px #999;
+button {
+  padding: 10px;
+  font-weight: bold;
+  background-color: var(--secondary-color-1);
+  border: none;
 }
 
 .button:hover {
