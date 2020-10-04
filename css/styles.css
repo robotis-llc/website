@@ -72,8 +72,19 @@ section {
     padding: 50px 100px 100px 100px;
 }
 
+#content-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+#main-content {
+    flex: 1 0;
+    min-width: 300px;
+    margin-bottom: 50px;
+}
+
 #ccwc {
-    float: right;
     width: 300px;
     padding-left: 50px;
     padding-bottom: 30px;
@@ -116,53 +127,18 @@ h1 {
     padding-bottom: 15px;
 }
 
-h2 {
-    color: ivory;
-    font-family: Arial, Helvetica, sans-serif;
-    text-align: left;
-}
-
-.center {
-    float: center;
-    background-color: gainsboro;
-    font-size: larger;
-    padding: 10px;
-}
-
-.left {
-    float: left;
-    width: 50%;
-    background-color: gainsboro;
-    font-size: larger;
-    padding: 10px;
-}
-
-.right {
-    float: right;
-    width: 50%;
-    padding:10px;
-}
-
-.buffer {
-    opacity: 0;
-    padding-top: 10px;
-}
-
-button {
+.button {
   padding: 10px;
   font-weight: bold;
   background-color: var(--secondary-color-1);
   border: none;
+  color: var(--primary-color-2);
+  display: inline-block;
 }
 
 .button:hover {
-    background-color:lightskyblue;
-}
-
-.button:active {
-    background-color:deepskyblue;
-    box-shadow: 0 5px #666;
-    transform: translateY(4px);
+    background-color: var(--primary-color-1);
+    color: var(--secondary-color-1);
 }
 
 /*Mobile Display*/
