@@ -12,6 +12,10 @@ body {
     background-color: var(--primary-color-2);
 }
 
+a {
+  color: var(--secondary-color-1);
+}
+
 #navbar-container {
     display: flex;
     flex-flow: row;
@@ -92,7 +96,6 @@ p {
     background-color: var(--primary-color-2);
     color: var(--secondary-color-3);
     font-size: 1.1em;
-    padding-left: 30px;
 }
 
 #footer-popup {
